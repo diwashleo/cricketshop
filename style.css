@@ -260,19 +260,20 @@ header {
 }
 
 .section-p3 {
-    padding: 40px 50px;
+    padding: 40px 150px;
 }
 
 #newsletter input{
     height: 3.125rem;
-    padding: 0 1.25rem;
+    padding:0 1.25rem;
+    margin-bottom: 10px;
     font-size: 14px;
     width: 100%;
     border: 1px solid transparent;
-    border-radius: 4px;
+    border-radius: 10px;
     outline: none;
-    border-top-right-radius: 0;
-    border-bottom-right-radius:0 ;
+    /* border-top-right-radius: 0;
+    border-bottom-right-radius:0 ; */
 }
 
 #newsletter .button {
@@ -284,10 +285,30 @@ header {
     border-bottom-left-radius:0 ; */
 }
 
-#newsletter  form .form {
-    display: flex;
-    width: 90%;
+#newsletter .form {
+    /* display: flex; */
+    width: 100%;
+    margin-bottom: 10px;
 }
+
+#newsletter .alert {
+    margin: -9px 0 12px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#newsletter .alert.error {
+    color: #721c24;
+    background: rgb(238, 124, 124);
+    border: 1px solid #f5c6cb;
+}
+
+#newsletter .alert.success {
+    color: #155724;
+    background: #d4edda;
+    border: 1px solid #c3e6cb;
+}
+
 
 /* ###############################footer######################### */
 
@@ -333,3 +354,4 @@ footer .copyright{
     width: 100%;
     text-align: center;
 }
+
